@@ -7,6 +7,7 @@ function docReady() {
 	var index = id - 1;
 
 	if(index >= ppts.length) {
+		console.log('overflow index=', index);
 		return false;
 	}
 

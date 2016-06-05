@@ -1,4 +1,5 @@
 var data = [
+	// part2
 	{
 		title : '作業流程分析',
 		subTitle : 'ERP 配銷 第二章',

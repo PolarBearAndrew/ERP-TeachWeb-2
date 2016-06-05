@@ -94,4 +94,10 @@ var ppts = [
 		subTitle : 'ERP 配銷 第五章',
 		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch11.pptx',
 	},
+	// part3
+	{
+		title : '課程簡介',
+		subTitle : 'ERP應用實務(財務模組) 第一章',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part3/ch1.pdf',
+	},
 ];
