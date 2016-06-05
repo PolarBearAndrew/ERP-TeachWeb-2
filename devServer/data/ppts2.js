@@ -2,57 +2,57 @@ var data = [
 	{
 		title : '作業流程分析',
 		subTitle : 'ERP 配銷 第二章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch1.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch1.pptx',
 	},
 	{
 		title : '配銷資料蒐集',
 		subTitle : 'ERP 配銷 第三章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch2.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch2.pptx',
 	},
 	{
 		title : '作業流程與常用報表01_新品號申請、品號資料變更、客戶資料管理',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch3.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch3.pptx',
 	},
 	{
 		title : '作業流程與常用報表02_報價、合約訂單、客戶訂單、訂單變更',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch4.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch4.pptx',
 	},
 	{
 		title : '作業流程與常用報表03_請購、採購、採購變更',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch5.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch5.pptx',
 	},
 	{
 		title : '作業流程與常用報表03_請購、採購、採購變更',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch6.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch6.pptx',
 	},
 	{
 		title : '作業流程與常用報表04_進貨、進貨驗收與驗退',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch7.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch7.pptx',
 	},
 	{
 		title : '作業流程與常用報表04_進貨、進貨驗收與驗退',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch8.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch8.pptx',
 	},
 	{
 		title : '作業流程與常用報表05_進貨退出、銷貨、銷貨退回',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch9.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch9.pptx',
 	},
 	{
 		title : '作業流程與常用報表06_庫存管理相關作業',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch10.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch10.pptx',
 	},
 	{
 		title : '作業流程與常用報表07_資產盤點流程',
 		subTitle : 'ERP 配銷 第五章',
-		url : 'http://polarbearandrew.github.io/ERP-TeachWeb/devServer/public/ppts/part2/ch11.pptx',
+		url : 'http://polarbearandrew.github.io/ERP-TeachWeb-2/devServer/public/ppts/part2/ch11.pptx',
 	},
 ];
 
