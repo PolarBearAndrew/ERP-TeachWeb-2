@@ -1,0 +1,174 @@
+extends container2
+
+block content
+
+	section.hero(style="background-color:#F5F7FA")
+		.hero-content
+			.container
+				h1.title
+					| 課程簡介
+				h2.subtitle
+					| 亞東技術學院 資管系
+
+	.columns
+		.column
+			center
+			nav.panel
+				p.panel-heading
+					| 企業資源規劃 ENTERPRISE RESOURCE PLANNING
+				//- p.panel-tabs
+				//- 	a(href='#') 
+				//- 	a(href='#') Public
+				//- 	a(href='#') Private
+				//- 	a(href='#') Sources
+				//- 	a(href='#') Forks
+				a.panel-block(href='#')
+					span.panel-icon
+						i.fa.fa-book
+					|     開課系所
+					br
+					br
+					| 亞東技術學院 日間部四技管理暨健康學群
+				a.panel-block.is-active(href='#')
+					span.panel-icon
+						i.fa.fa-book
+					|     課程目標 (Goal)
+					br
+					br
+					| (1) 企業資源規劃(ERP)之理論介紹
+					br
+					| (2) ERP系統(配銷模組)之實務操作與應用
+					br
+					| (3) 輔導考取ERP軟體應用師-配銷模組(GP版)之證照
+				a.panel-block(href='#')
+					span.panel-icon
+						i.fa.fa-book
+					|     指定用書 (TextBook) 
+					br
+					br
+					| 鼎新Workflow ERP GP應用人才培訓系列
+					br 
+					br
+					| (1) ERP基礎觀念及導入方法篇
+					br
+					| (2) 配銷模組應用篇
+				.panel-block
+					a.button.is-primary.is-outlined.is-fullwidth(href='http://portal.oit.edu.tw/' target='_blank')
+						| 前往個人 Portal
+		.column
+			center
+				.card
+					figure.card-image.is-4x3
+						img(src='./asset/images/profile_02.jpg', alt='')
+					.card-content
+						.media
+							.media-left
+								img(src='./asset/images/profile_01.jpg', width='32px' alt='Image')
+							.media-content
+								p.title.is-5 賴鍵元 老師
+								p.subtitle.is-6 助理教授
+						.content
+							| 大家對於內容有任何疑問，有空可以寄 mail 給老師喔~ 老師平日會固定每日收信，會盡快回覆各位同學。
+							| .
+							br
+							a(href='#') 校內分機#5315
+							br
+							a(href='mailto:fi012@mail.oit.edu.tw') fi012@mail.oit.edu.tw
+							br
+							small 11:09 PM - 1 Jan 2016
+	
+	section.hero(style="background-color:#F5F7FA")
+		.hero-content
+			.container
+				h1.title
+					| 下學期課表
+				h2.subtitle
+					| 企業資源規劃 ENTERPRISE RESOURCE PLANNING
+	
+	table.table.is-striped(style="background-color:#F5F7FA")
+		thead
+			tr
+				td 週次
+				td 授課內容
+				td 授課方式
+		tbody
+			tr
+				td 第1週
+				td ERP財務模組課程與相關工作及證照說明
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第2週
+				td 國定假日，放假乙次
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第3週
+				td 案例公司概況說明、作業流程分析
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第4週
+				td 基本資料蒐集
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第5週
+				td 帳務與資金管理(1)：會計傳票建立及過帳流程
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第6週
+				td 帳務與資金管理(2)：應收帳款結帳
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第7週
+				td 帳務與資金管理(3)：收款及應收票據
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第8週
+				td 帳務與資金管理(4)：應付帳款結帳及空白支票管理
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第9週
+				td 期中考
+				td 無資料
+			tr
+				td 第10週
+				td 帳務與資金管理(5)：付款及應付票據
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第11週
+				td 帳務與資金管理(6)：銀行存提
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第12週
+				td 固定資產管理(1)：資產取得、改良
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第13週
+				td 固定資產管理(2)：移轉、折舊、盤點
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第14週
+				td 財務報表與月結管理
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第15週
+				td 營業稅申報作業流程篇(1)：基本設定與營業稅申報前置作業
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第16週
+				td 營業稅申報作業流程篇(2)：營業稅申報作業
+				td 單槍投影機與廣播教學系統
+			tr
+				td 第17週
+				td 期初餘額結算與輸入：應收管理系統、應付管理系統、票據資金管理系統、會計總帳、固定資產管、營業稅申報與總複習
+				td 無資料
+			tr
+				td 第18週
+				td 期末考
+				td 無資料
+	
+	hr
+	center
+		a.button.is-large.is-danger(href='./ppts.html') 開始課程
+	hr
+
+	include footer
+		

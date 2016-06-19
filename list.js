@@ -3,11 +3,17 @@
 
 var list = [
 	{ page: 'router', },
+
 	{ page: 'home', },
-	{ page: 'flash', },
-	{ page: 'vedio', },
+	{ page: 'home2', },
+
 	{ page: 'ppts', },
 	{ page: 'ppts2', },
+
+	{ page: 'flash', },
+	{ page: 'flash2', },
+
+	{ page: 'vedio', },
 ];
 
 module.exports = list;

@@ -1,0 +1,40 @@
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title ERP 企業資源規劃
+	
+	//- link(rel='stylesheet', type='text/css', href='./semantic-ui/semantic.css')
+	//- link(rel='stylesheet', type='text/css', href='./asset/stylesheets/reset.css')
+	//- link(rel='stylesheet', type='text/css', href='https://cdn.rawgit.com/jgthms/bulma/master/css/bulma.min.css')
+	link(rel='stylesheet', type='text/css', href='./asset/stylesheets/bulma.min.css')
+	link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+
+	block styleSheet
+	
+body
+	.container(style='padding-top:10px')
+		.columns
+			.column
+				p.navbar-item.is-centered
+					a.button.is-medium.is-info(href='./home2.html' style='margin-top:40px') 課程介紹
+			.column
+				p.navbar-item.is-centered
+					a.button.is-medium.is-info(href='./ppts2.html' style='margin-top:40px') 課程簡報
+			.column
+				p.navbar-item.is-centered
+					img(src='./asset/images/oit.png', alt='亞東技術學院資管系', style='height: 120px;')
+			.column
+				p.navbar-item.is-centered
+					a.button.is-medium.is-info(href='./vedio2.html' style='margin-top:40px') 影音教學
+			.column
+				p.navbar-item.is-centered
+					a.button.is-medium.is-info(href='./flash2.html' style='margin-top:40px') 模擬測驗
+
+		nav.navbar
+			
+
+		block content
+	script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+	script(src='./semantic-ui/semantic.js')
+	script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js')
+	block javaScript
