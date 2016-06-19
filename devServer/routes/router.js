@@ -9,11 +9,11 @@ var queryString = require('../feature/queryString.js');
 
 var data = require('../data');
 
-router.get('/home_1', (req, res, next) => {
-  res.render('home_1');
+router.get('/home', (req, res, next) => {
+  res.render('home');
 });
 
-router.get('/vedio_1', (req, res, next) => {
+router.get('/vedio', (req, res, next) => {
   res.render('vedio', { vedio : data.vedio });
 });
 
@@ -21,11 +21,11 @@ router.get('/vedio_1', (req, res, next) => {
 var ppts = data.ppts.concat(data.ppts2);
 ppts = { ppts : ppts.concat(data.ppts3), };
 
-router.get('/ppts_1', (req, res, next) => {
+router.get('/ppts', (req, res, next) => {
   res.render('ppts', ppts);
 });
 
-router.get('/flash_1', (req, res, next) => {
+router.get('/flash', (req, res, next) => {
   res.render('flash');
 });
 
