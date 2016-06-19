@@ -17,12 +17,17 @@ router.get('/vedio', (req, res, next) => {
   res.render('vedio', { vedio : data.vedio });
 });
 
-var ppts = data.ppts.concat(data.ppts2);
-ppts = { ppts : ppts.concat(data.ppts3), };
-
 router.get('/ppts', (req, res, next) => {
+	var ppts = data.ppts.concat(data.ppts2);
+	ppts = { ppts : ppts, };
   res.render('ppts', ppts);
 });
+
+router.get('/ppts2', (req, res, next) => {
+	var ppts = { ppts : data.ppts3, };
+  res.render('ppts2', ppts);
+});
+
 
 router.get('/flash', (req, res, next) => {
   res.render('flash');

@@ -1,0 +1,43 @@
+extends container
+
+block content
+
+	section.hero(style="background-color:#F5F7FA")
+		.hero-content
+			.container
+				h1.title
+					| 課程簡報教室
+				h2.subtitle
+					| 企業資源規劃 ENTERPRISE RESOURCE PLANNING
+	hr
+	center
+		span.select
+			select#selector
+				- for( var i = 0; i < ppts.length; i++ )
+					option(value=(i+1))= ppts[i].title
+	hr
+	section#notify.hero.is-medium.is-primary.is-bold
+		.hero-content
+			.container
+				h1.title
+					| 請在上方選擇的課程名稱
+				h2.subtitle
+					| 搜尋對應的課程簡報
+
+	// ppts
+	#wrapper(style='display:none')
+		br
+		h1.title#pptTitle
+		h2.subtitle#pptSubTitle
+		center
+			iframe#pptIframe(src='http://docs.google.com/gview?url=@url@&embedded=true', style='width:900px; height:500px;', frameborder='0')
+	hr
+	include footer
+
+	block javaScript
+		script(src='./json/ppts2.js')
+		//- script(src='./json/vedios.js')
+		script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+		script(src='./asset/javascripts/getQueryParams.js')
+		script(src='./asset/javascripts/ppts.js')
+	
