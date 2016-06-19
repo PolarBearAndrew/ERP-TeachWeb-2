@@ -28,6 +28,10 @@ router.get('/flash', (req, res, next) => {
   res.render('flash');
 });
 
+router.get('/router', (req, res, next) => {
+  res.render('router');
+});
+
 // router.get('/:page', (req, res, next) => {
 // 	console.log('use /:page');
 //   res.render(req.params.page.replace(/.html/, ''));
