@@ -1,0 +1,41 @@
+extends container
+
+block content
+	section.hero(style="background-color:#F5F7FA")
+		.hero-content
+			.container
+				h1.title
+					| 影音教學教室
+				h2.subtitle
+					| 企業資源規劃 ENTERPRISE RESOURCE PLANNING
+	hr
+	center
+		span.select
+			select#selector
+				- for( var i = 0; i < vedio.length; i++ )
+					option(value=(i+1))= vedio[i].title
+	hr
+	section#notify.hero.is-medium.is-primary.is-bold
+		.hero-content
+			.container
+				h1.title
+					| 請在上方選擇的課程名稱
+				h2.subtitle
+					| 搜尋對應的影音教學
+
+	// vedio
+	#wrapper(style='display:none')
+		h1.title#vedioTitle
+		h2.subtitle#vedioSubTitle
+			|    
+			span.tag.is-success#vedioTag
+		center
+			iframe#vedioIframe(width='854', height='480', src='', frameborder='0', allowfullscreen='')
+		br
+	hr
+	include footer
+	block javaScript
+		script(src='./json/vedios2.js')
+		script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+		script(src='./asset/javascripts/getQueryParams.js')
+		script(src='./asset/javascripts/vedio.js')

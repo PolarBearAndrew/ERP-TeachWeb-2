@@ -17,6 +17,10 @@ router.get('/vedio', (req, res, next) => {
   res.render('vedio', { vedio : data.vedio });
 });
 
+router.get('/vedio2', (req, res, next) => {
+  res.render('vedio2', { vedio : data.vedio2 });
+});
+
 router.get('/ppts', (req, res, next) => {
 	var ppts = data.ppts.concat(data.ppts2);
 	ppts = { ppts : ppts, };
