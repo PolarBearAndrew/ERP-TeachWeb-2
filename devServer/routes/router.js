@@ -20,7 +20,6 @@ router.get('/vedio_1', (req, res, next) => {
 
 var ppts = data.ppts.concat(data.ppts2);
 ppts = { ppts : ppts.concat(data.ppts3), };
-console.log('ppts', ppts);
 
 router.get('/ppts_1', (req, res, next) => {
   res.render('ppts', ppts);
@@ -34,10 +33,10 @@ router.get('/router', (req, res, next) => {
   res.render('router');
 });
 
-// router.get('/:page', (req, res, next) => {
-// 	console.log('use /:page');
-//   res.render(req.params.page.replace(/.html/, ''));
-// });
+router.get('/:page', (req, res, next) => {
+	console.log('use /:page');
+  res.render(req.params.page.replace(/.html/, ''));
+});
 
 
 
