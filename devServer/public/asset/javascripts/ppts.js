@@ -32,7 +32,8 @@ function docReady() {
 
 $('html').on('change', '#selector', function(event){
 	var value = $(event.target).val();
+	var page = location.pathname.substring(location.pathname.lastIndexOf('/'), location.pathname.length);
 	// console.log('value', value);
-	window.location = "." + location.pathname + "?id=" + value;
+	window.location = "." + page + "?id=" + value;
 	return false;
 });
