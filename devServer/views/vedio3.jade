@@ -30,10 +30,7 @@ block content
 			|    
 			span.tag.is-success#vedioTag
 		center
-			video(width='854', height='480', autoplay='')
-				source#vedioIframe(src='', frameborder='0', allowfullscreen='')
-				| Your browser does not support the video tag.
-
+			iframe#vedioIframe(width='854', height='480', src='', frameborder='0', allowfullscreen='')
 		br
 	hr
 	include footer

@@ -15,6 +15,7 @@ var list = [
 
 	{ page: 'vedio', },
 	{ page: 'vedio2', },
+	{ page: 'vedio3', },
 ];
 
 module.exports = list;
