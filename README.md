@@ -27,7 +27,7 @@ npm start
 * `localhost:8080/_admin`
 * 按下按鈕 build 即可
 
-# 資源黨修改方式
+# 資源檔修改方式
 
 相關檔案 | desc
 ---- | ----
